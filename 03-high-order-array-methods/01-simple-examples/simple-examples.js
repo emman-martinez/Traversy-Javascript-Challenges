@@ -15,7 +15,7 @@ const evenNumbers = numbers.filter((num) => num % 2 === 0);
 /**
  * reduce: Accumulates array elements into a single value using a provided function.
  */
-const sum = numbers.reduce((total, num) => total + num);
+const sum = numbers.reduce((total, num) => total + num, 0);
 // console.log(sum);
 
 /**
